@@ -1,1 +1,10 @@
-# mms142-groupd-2023.github.io
+# MMS142 Group D 
+Members:
+Eroll
+Marga 
+Hannah
+Yenny
+Angeline
+Rai
+Bree
+Gly
