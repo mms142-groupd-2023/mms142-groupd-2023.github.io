@@ -1,5 +1,3 @@
----
----
 div {
   text-align: justify;
   text-justify: inter-word;
@@ -22,12 +20,12 @@ div {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
-  color:#ffffff;
+  color: #ffffff;
   font-family: 'Quicksand', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;'
+  justify-content: center;
   opacity: 0;
   transition: opacity 0.25s;
 }
@@ -37,22 +35,22 @@ div {
   transition: transform 0.25s;
 }
 
-.image__overlay > * {
-  transform: translateY(0);
-}
-
 .image__overlay:hover {
   opacity: 1;
 }
 
-.image_title {
+.image__overlay:hover > * {
+  transform: translateY(0);
+}
+
+.image__title {
   font-size: 2em;
   font-weight: bold;
 }
 
-.image_description {
+.image__description {
   font-size: 1.25em;
   margin-top: 0.25em;
 }
 
-
+@import 'jekyll-theme-cayman';
