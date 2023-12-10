@@ -30,13 +30,13 @@
   transition: opacity 0.25s;
 }
 
+.image:hover .image__overlay {
+  opacity: 1;
+}
+
 .image__overlay > * {
   transform: translateY(20px);
   transition: transform 0.25s;
-}
-
-.image:hover .image__overlay {
-  opacity: 1;
 }
 
 .image:hover .image__overlay > * {
