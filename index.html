@@ -11,36 +11,40 @@ title: Automation and Robotics In Reshaping The Workforce
 
 	<p>Some examples of automation cited by Groover (2023) are the following: </p>
 	
-	<h2>What are the advantages and disadvantages of using these technologies in the workforce?</h2>
-	<p>
-	 From the examples provided above, we get a glimpse into how automation and robotics have significantly improved the way humans do things. The main goal of these innovations is to improve our quality of life by streamlining processes and making jobs easier and more efficient.
-
-	  <span id="dots">...</span><span id="more" style="display: none">
-		  At the same time, however, they also pose certain disadvantages which shows that they are not perfect systems.  Below are some of the pros and cons of automation and robotics.
-	</p>
-
-	<h2>Advantages</h2>
-
-
+	<div>
+	  <h2>What are the advantages and disadvantages of using these technologies in the workforce?</h2>
 	
-	<button onclick="myFunction()" id="myBtn">Read more</button>
+		  <p>
+		    From the examples provided above, we get a glimpse into how automation and robotics have significantly improved the way humans do things. The main goal of these innovations is to improve our quality of life by streamlining processes and making jobs easier and more efficient.
+		    <span id="dots">...</span><span id="more" style="display: none">
+		      At the same time, however, they also pose certain disadvantages which shows that they are not perfect systems. Below are some of the pros and cons of automation and robotics.
+		    </span>
+		  </p>
 	
-	<script>
-	  function myFunction() {
-	    var dots = document.getElementById("dots");
-	    var moreText = document.getElementById("more");
-	    var btnText = document.getElementById("myBtn");
+		  <button onclick="myFunction()" id="myBtn">Read more</button>
 	
-	    if (dots.style.display === "none") {
-	      dots.style.display = "inline";
-	      btnText.innerHTML = "Read more";
-	      moreText.style.display = "none";
-	    } else {
-	      dots.style.display = "none";
-	      btnText.innerHTML = "Read less";
-	      moreText.style.display = "inline";
-	    }
-	  }
-	</script>
+	  <h2 id="additionalHeading" style="display: none">Advantages</h2>
+	</div>
+
+<script>
+  function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+    var additionalHeading = document.getElementById("additionalHeading");
+
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+      additionalHeading.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+      additionalHeading.style.display = "block";
+    }
+  }
+</script>
 
 </div><!-- /.blurb -->
