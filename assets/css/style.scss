@@ -49,6 +49,12 @@ div {
   text-align: center;
 }
 
+/* Indentation for the overlay text */
+.overlay h2,
+.overlay p {
+  margin: 0 20px; /* Adjust the indentation as needed */
+}
+
 /* When you mouse over the container, fade in the overlay title */
 .container:hover .overlay {
   opacity: 1;
