@@ -16,14 +16,14 @@ div {
 .container {
   position: relative;
   width: 100%;
-  max-width: 300px; /* Adjust the max-width as needed */
+  max-width: 500px; /* Adjust the max-width as needed */
 }
 
 /* Make the image responsive */
 .image {
   display: block;
-  width: 200%;
-  height: auto;
+  width: 350%;
+  height: 200%;
 }
 
 /* The overlay effect - lays on top of the container and over the image */
