@@ -12,7 +12,7 @@ title: Automation and Robotics In Reshaping The Workforce
 	<p>Some examples of automation cited by Groover (2023) are the following: </p>
 	
 <div>
-  <h2>Advantages and Disadvantages of in the Workforce</h2>
+  <h2>Advantages and Disadvantages of Automation in the Workforce</h2>
 
   <p>
     From the examples provided above, we get a glimpse into how automation and robotics have significantly improved the way humans do things. The main goal of these innovations is to improve our quality of life by streamlining processes and making jobs easier and more efficient. At the same time, however, they also pose certain disadvantages. Below are some of the pros and cons of automation and robotics.
@@ -24,13 +24,13 @@ title: Automation and Robotics In Reshaping The Workforce
     Automation and robotics are used in different industries and operations today as they enhance productivity by increasing production output at a faster speed. By reducing manual labor, these automated systems also eliminate human error which leads to output that is standard and passes quality control.
   </p>
 
-  <button onclick="toggleContent()" id="myBtn">Read more</button>
+  <button onclick="toggleContent('advantages')" id="myBtnAdvantages">Read more</button>
 </div>
 
 <div>
-
-  <button onclick="toggleContent()" id="myBtn">Read more</button>
-  <ul>
+  <h2>References</h2>
+  <ul id="referencesList1">
+    <!-- First list of references -->
 	 <li> 5 Medical robots making a difference in healthcare. (2001, October 13). CWRU Online Engineering. https://online-engineering.case.edu/blog/medical-robots-making-a-difference </li>  
 	 <li> Adobo Magazine. (2020, February 26). [McDonald’s staff and customer demonstrating their self service kiosk]. .. https://www.adobomagazine.com/press-release/brand-business-mcdonalds-philippines-sustains-double-digit-growth-with-innovations-driving-enhanced-customer-experience/ </li>
 	 <li> Ahmed, M. (2022, April 7). Top Advantages of Online Assessment Tools in Education. MasterSoft. https://www.iitms.co.in/blog/top-advantages-of-online-assessment-tools.html </li> 
@@ -38,7 +38,11 @@ title: Automation and Robotics In Reshaping The Workforce
 	 <li> Automated welding using industrial robots. (n.d.). Wevolver. https://www.wevolver.com/article/robots-in-the-manufacturing-industry-types-and-applications</li>
   </ul>
 
-	<li>Badkar, A. (2023, July 4). Advantages and disadvantages of automation. https://www.simplilearn.com/advantages-and-disadvantages-of-automation-article#advantages_and_disadvantages_of_automation </li>
+  <button onclick="toggleContent('references1')" id="myBtnReferences1">Read more</button>
+  
+  <ul id="referencesList2" style="display: none">
+    <!-- Second list of references -->
+<li>Badkar, A. (2023, July 4). Advantages and disadvantages of automation. https://www.simplilearn.com/advantages-and-disadvantages-of-automation-article#advantages_and_disadvantages_of_automation </li>
 	<li>Banking. (n.d.). Amongo. https://www.amongo.com.cn/banking.html </li>
 	<li>Buist, B. (2022, July 18). Why is there a need for automated guided vehicles (AGVs)? D+M Metal Products. https://www.dmmetalproducts.com/why-is-there-a-need-for-automated-guided-vehicles-agvs/ </li>
 	<li>Business Telephone. (2000). Britannica. https://www.britannica.com/technology/telephone </li>
@@ -94,33 +98,54 @@ title: Automation and Robotics In Reshaping The Workforce
 	<li>Xag. (2020, May 27). Automated Farming: XAG Introduces Rice Seeding Drone to Mitigate Labour Shortage. Cision. https://www.prnewswire.com/news-releases/automated-farming-xag-introduces-rice-seeding-drone-to-mitigate-labour-shortage-301066131.html </li>
 	<li>(N.d.-a). Association for Advancing Automation. https://www.automate.org/blogs/robotics-in-human-rehabilitation </li>
 	<li>(N.d.-b). Ti2 Pty Ltd. https://ti2.com.au/how-to-build-a-modernised-semi-automated-production-line-for-a-manufacturing-company-australians-automation-guide/ </li>
-	<li>(N.d.-c). 3ERP. https://www.3erp.com/blog/computer-numerical-control/ </li>
+	<li>(N.d.-c). 3ERP. https://www.3erp.com/blog/computer-numerical-control/ </li> 
+    <!-- Add more references as needed -->
+  </ul>
 
-  <button onclick="toggleContent()" id="myBtn">Read more</button>
+  <button onclick="toggleContent('references2')" id="myBtnReferences2">Read more</button>
 </div>
 
 <script>
-  function toggleContent() {
+  function toggleContent(section) {
     var additionalHeading = document.getElementById("additionalHeading");
     var advantagesHeading = document.getElementById("advantagesHeading");
     var advantagesParagraph = document.getElementById("advantagesParagraph");
-    var btnText = document.getElementById("myBtn");
+    var btnTextAdvantages = document.getElementById("myBtnAdvantages");
+    var referencesList1 = document.getElementById("referencesList1");
+    var referencesList2 = document.getElementById("referencesList2");
+    var btnTextReferences1 = document.getElementById("myBtnReferences1");
+    var btnTextReferences2 = document.getElementById("myBtnReferences2");
 
-    if (additionalHeading.style.display === "none") {
-      additionalHeading.style.display = "block";
-      advantagesHeading.style.display = "block";
-      advantagesParagraph.style.display = "block";
-      btnText.innerHTML = "Read less";
-    } else {
-      additionalHeading.style.display = "none";
-      advantagesHeading.style.display = "none";
-      advantagesParagraph.style.display = "none";
-      btnText.innerHTML = "Read more";
+    if (section === "advantages") {
+      if (additionalHeading.style.display === "none") {
+        additionalHeading.style.display = "block";
+        advantagesHeading.style.display = "block";
+        advantagesParagraph.style.display = "block";
+        btnTextAdvantages.innerHTML = "Read less";
+      } else {
+        additionalHeading.style.display = "none";
+        advantagesHeading.style.display = "none";
+        advantagesParagraph.style.display = "none";
+        btnTextAdvantages.innerHTML = "Read more";
+      }
+    } else if (section === "references1") {
+      if (referencesList1.style.display === "none") {
+        referencesList1.style.display = "block";
+        btnTextReferences1.innerHTML = "Read less";
+      } else {
+        referencesList1.style.display = "none";
+        btnTextReferences1.innerHTML = "Read more";
+      }
+    } else if (section === "references2") {
+      if (referencesList2.style.display === "none") {
+        referencesList2.style.display = "block";
+        btnTextReferences2.innerHTML = "Read less";
+      } else {
+        referencesList2.style.display = "none";
+        btnTextReferences2.innerHTML = "Read more";
+      }
     }
   }
 </script>
-
-
-
 
 </div><!-- /.blurb -->
