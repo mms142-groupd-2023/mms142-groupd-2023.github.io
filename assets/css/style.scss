@@ -38,10 +38,11 @@ input[type="checkbox"]: checked ~ label:before {
   content: "Read Less";
 }
 
-.dots:has(~input[type:"checkbox"]:checked) {
+.dots:has(~input[type="checkbox"]:checked) {
   display: none;
 }
 
-.extra:has(~input[type:"checkbox"]:checked) {
+.extra:has(~input[type="checkbox"]:checked) {
   display: inline;
 }
+
