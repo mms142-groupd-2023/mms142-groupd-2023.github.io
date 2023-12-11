@@ -22,8 +22,8 @@ title: Automation and Robotics In Reshaping The Workforce
   </p>
 
   <h2 id="additionalHeading" style="display: none">Advantages</h2>
+  <h4 id="advantagesHeading" style="display: none">Increased efficiency, productivity, and accuracy</h4>
   <p id="advantagesParagraph" style="display: none">
-    Increased efficiency, productivity, and accuracy<br>
     Automation and robotics are used in different industries and operations today as they enhance productivity by increasing production output at a faster speed. By reducing manual labor, these automated systems also eliminate human error which leads to output that is standard and passes quality control.
   </p>
 
@@ -36,6 +36,7 @@ title: Automation and Robotics In Reshaping The Workforce
     var moreText = document.getElementById("more");
     var btnText = document.getElementById("myBtn");
     var additionalHeading = document.getElementById("additionalHeading");
+    var advantagesHeading = document.getElementById("advantagesHeading");
     var advantagesParagraph = document.getElementById("advantagesParagraph");
 
     if (dots.style.display === "none") {
@@ -43,12 +44,14 @@ title: Automation and Robotics In Reshaping The Workforce
       btnText.innerHTML = "Read more";
       moreText.style.display = "none";
       additionalHeading.style.display = "none";
+      advantagesHeading.style.display = "none";
       advantagesParagraph.style.display = "none";
     } else {
       dots.style.display = "none";
       btnText.innerHTML = "Read less";
       moreText.style.display = "inline";
       additionalHeading.style.display = "block";
+      advantagesHeading.style.display = "block";
       advantagesParagraph.style.display = "block";
     }
   }
