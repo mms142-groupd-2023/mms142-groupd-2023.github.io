@@ -1,5 +1,8 @@
 ---
 ---
+
+@import 'jekyll-theme-cayman';
+
 div {
   text-align: justify;
   text-justify: inter-word;
@@ -41,6 +44,3 @@ input[type="checkbox"]: checked ~ label:before {
 
 .extra:has(~input[type:"checkbox"]:checked) {
   display: inline;
-
-
-@import 'jekyll-theme-cayman';
