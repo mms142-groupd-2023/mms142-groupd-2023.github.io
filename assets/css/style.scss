@@ -24,8 +24,8 @@ div {
 /* Make the image responsive */
 .image {
   display: block;
-  width: 100%; /* Set the width to 100% to take full width */
-  height: auto; /* Maintain the aspect ratio */
+  width: 100%;
+  height: 500px; 
 }
 
 /* The overlay effect - lays on top of the container and over the image */
