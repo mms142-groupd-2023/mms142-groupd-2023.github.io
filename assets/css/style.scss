@@ -10,28 +10,29 @@ div {
 
 #more {display: none;}
 
-* {
-  box-sizing: border-box;
-}
+* {box-sizing: border-box}
 
 /* Container needed to position the overlay. Adjust the width as needed */
 .container {
-  display: flex; /* Use flexbox for layout */
+  position: relative;
   width: 100%;
-  max-width: 1000px; /* Adjust the max-width as needed for both images */
-  margin: 0 auto; /* Center the container horizontally */
+  max-width: 500px; /* Adjust the max-width as needed */
 }
 
 /* Make the image responsive */
 .image {
   display: block;
-  width: 100%; /* Make the image fill the container */
-  height: auto; /* Maintain aspect ratio */
+  width: 350%;
+  height: 200%;
 }
 
 /* The overlay effect - lays on top of the container and over the image */
 .overlay {
-  position: relative; /* Change from absolute to relative */
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
   color: #f1f1f1;
   width: 100%;
