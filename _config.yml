@@ -1,2 +1,8 @@
-name: Hank Quinlan, Horrible Cop
-markdown: kramdown
+title: Automation and Robotics In Reshaping The Workforce
+description: A report on disruption innovation in MMS142 (2023) by Group D
+show_downloads: true
+google_analytics: 
+theme: jekyll-theme-cayman
+
+github:
+  pdf_url: https://github.com/DaveClemente/mms142-groupd-2023.github.io/blob/ab69996a18aaebae83b7f19e603e857c796f909a/files/docs/Final%20Report%20Content.pdf
