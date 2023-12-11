@@ -15,46 +15,35 @@ title: Automation and Robotics In Reshaping The Workforce
   <h2>What are the advantages and disadvantages of using these technologies in the workforce?</h2>
 
   <p>
-    From the examples provided above, we get a glimpse into how automation and robotics have significantly improved the way humans do things. The main goal of these innovations is to improve our quality of life by streamlining processes and making jobs easier and more efficient.
-    <span id="dots">...</span><span id="more" style="display: none">
-      At the same time, however, they also pose certain disadvantages which show that they are not perfect systems. Below are some of the pros and cons of automation and robotics.
-    </span>
+    From the examples provided above, we get a glimpse into how automation and robotics have significantly improved the way humans do things. The main goal of these innovations is to improve our quality of life by streamlining processes and making jobs easier and more efficient. At the same time, however, they also pose certain disadvantages which show that they are not perfect systems. Below are some of the pros and cons of automation and robotics.
   </p>
 
   <h2 id="additionalHeading" style="display: none">Advantages</h2>
-  <h3 id="advantagesHeading" style="display: none">Increased efficiency, productivity, and accuracy</h3>
+  <h3 id="advantagesHeading" style="display: none">Increased efficiency, productivity, and accuracy</h4>
   <p id="advantagesParagraph" style="display: none">
     Automation and robotics are used in different industries and operations today as they enhance productivity by increasing production output at a faster speed. By reducing manual labor, these automated systems also eliminate human error which leads to output that is standard and passes quality control.
   </p>
 
-  <button onclick="myFunction()" id="myBtn">Read more</button>
+  <button onclick="toggleContent()" id="myBtn">Toggle Content</button>
 </div>
 
 <script>
-  function myFunction() {
-    var dots = document.getElementById("dots");
-    var moreText = document.getElementById("more");
-    var btnText = document.getElementById("myBtn");
+  function toggleContent() {
     var additionalHeading = document.getElementById("additionalHeading");
     var advantagesHeading = document.getElementById("advantagesHeading");
     var advantagesParagraph = document.getElementById("advantagesParagraph");
 
-    if (dots.style.display === "none") {
-      dots.style.display = "inline";
-      btnText.innerHTML = "Read more";
-      moreText.style.display = "none";
-      additionalHeading.style.display = "none";
-      advantagesHeading.style.display = "none";
-      advantagesParagraph.style.display = "none";
-    } else {
-      dots.style.display = "none";
-      btnText.innerHTML = "Read less";
-      moreText.style.display = "inline";
+    if (additionalHeading.style.display === "none") {
       additionalHeading.style.display = "block";
       advantagesHeading.style.display = "block";
       advantagesParagraph.style.display = "block";
+    } else {
+      additionalHeading.style.display = "none";
+      advantagesHeading.style.display = "none";
+      advantagesParagraph.style.display = "none";
     }
   }
 </script>
+
 
 </div><!-- /.blurb -->
