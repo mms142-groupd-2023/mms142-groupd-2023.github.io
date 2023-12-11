@@ -16,64 +16,47 @@ title: Automation and Robotics In Reshaping The Workforce
 
   <p>
     From the examples provided above, we get a glimpse into how automation and robotics have significantly improved the way humans do things. The main goal of these innovations is to improve our quality of life by streamlining processes and making jobs easier and more efficient.
+    <span id="dots">...</span><span id="more" style="display: none">
+      At the same time, however, they also pose certain disadvantages which show that they are not perfect systems. Below are some of the pros and cons of automation and robotics.
+    </span>
   </p>
 
   <h2 id="additionalHeading" style="display: none">Advantages</h2>
-  <h4 id="advantagesHeading" style="display: none">Increased efficiency, productivity, and accuracy</h4>
+  <h3 id="advantagesHeading" style="display: none">Increased efficiency, productivity, and accuracy</h3>
   <p id="advantagesParagraph" style="display: none">
     Automation and robotics are used in different industries and operations today as they enhance productivity by increasing production output at a faster speed. By reducing manual labor, these automated systems also eliminate human error which leads to output that is standard and passes quality control.
   </p>
 
-  <button onclick="toggleContent()" id="myBtn">Read more</button>
-
-  <h2 id="additionalHeading2" style="display: none">Additional Heading 2</h2>
-  <h4 id="advantagesHeading2" style="display: none">Additional Content 2</h4>
-  <p id="advantagesParagraph2" style="display: none">
-    Additional content goes here.
-  </p>
-
-  <button onclick="toggleContent2()" id="myBtn2" style="display: none">Read more</button>
+  <button onclick="myFunction()" id="myBtn">Read more</button>
 </div>
 
 <script>
-  function toggleContent() {
+  function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
     var additionalHeading = document.getElementById("additionalHeading");
     var advantagesHeading = document.getElementById("advantagesHeading");
     var advantagesParagraph = document.getElementById("advantagesParagraph");
-    var btnText = document.getElementById("myBtn");
 
-    if (additionalHeading.style.display === "none") {
-      additionalHeading.style.display = "block";
-      advantagesHeading.style.display = "block";
-      advantagesParagraph.style.display = "block";
-      btnText.innerHTML = "Read less";
-    } else {
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
       additionalHeading.style.display = "none";
       advantagesHeading.style.display = "none";
       advantagesParagraph.style.display = "none";
-      btnText.innerHTML = "Read more";
-    }
-  }
-
-  function toggleContent2() {
-    var additionalHeading2 = document.getElementById("additionalHeading2");
-    var advantagesHeading2 = document.getElementById("advantagesHeading2");
-    var advantagesParagraph2 = document.getElementById("advantagesParagraph2");
-    var btnText2 = document.getElementById("myBtn2");
-
-    if (additionalHeading2.style.display === "none") {
-      additionalHeading2.style.display = "block";
-      advantagesHeading2.style.display = "block";
-      advantagesParagraph2.style.display = "block";
-      btnText2.innerHTML = "Read less";
     } else {
-      additionalHeading2.style.display = "none";
-      advantagesHeading2.style.display = "none";
-      advantagesParagraph2.style.display = "none";
-      btnText2.innerHTML = "Read more";
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+      additionalHeading.style.display = "block";
+      advantagesHeading.style.display = "block";
+      advantagesParagraph.style.display = "block";
     }
   }
 </script>
+
 
 
 
