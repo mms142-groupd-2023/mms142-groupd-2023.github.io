@@ -52,6 +52,27 @@ h1, h2, h3, h4, h5, h6 {
   height: auto;
   object-fit: cover;
 }
+
+/*styling for media lists*/
+.description-list {
+      display: flex;
+      list-style: none;
+      padding: 0;
+}
+
+.description-item {
+      display: flex;
+      flex-direction: column; /* Stack content vertically */
+      align-items: center;
+      margin-bottom: 20px;
+      text-align: center;
+}
+
+.description-item img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+}
   
 #referencesList1 {
   margin-bottom: 0; /* Remove bottom margin for the first list */
