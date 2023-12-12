@@ -10,6 +10,25 @@ div {
 
 #more {display: none;}
 
+/*white content container*/
+.white-container {
+  background-color: white;
+  padding: 20px;
+}
+
+/*gray content container*/
+.gray-container {
+  background-color: #EFEFEF;
+    padding: 20px;
+}
+
+/*h4 heading, bold, italicized, green*/
+.green-heading {
+  color: #437C75;
+  font-weight: bold;
+  font-style: italic;
+}
+  
 #referencesList1 {
   margin-bottom: 0; /* Remove bottom margin for the first list */
 }
