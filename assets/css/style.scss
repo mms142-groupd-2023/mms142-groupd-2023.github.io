@@ -55,24 +55,21 @@ h1, h2, h3, h4, h5, h6 {
 
 /*styling for media lists*/
 .description-list {
-      display: flex;
       list-style: none;
       padding: 0;
-}
-
-.description-item {
       display: flex;
-      flex-direction: column; /* Stack content vertically */
-      align-items: center;
-      margin-bottom: 20px;
-      text-align: center;
-}
+      flex-wrap: wrap; /* Allow items to wrap to the next line */
+    }
 
-.description-item img {
-      max-width: 100%;
+    .description-item {
+      flex: 1 0 300px; /* Flexible width, no shrinking, max width 300px */
+      margin: 10px;
+    }
+
+    .description-item img {
+      max-width: 100%; /* Make the image responsive */
       height: auto;
-      margin-bottom: 10px;
-}
+    }
   
 #referencesList1 {
   margin-bottom: 0; /* Remove bottom margin for the first list */
