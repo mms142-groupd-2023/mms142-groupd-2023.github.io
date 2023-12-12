@@ -103,26 +103,10 @@ title: Automation and Robotics In Reshaping The Workforce
 
 <script>
   function toggleContent(section) {
-    var additionalHeading = document.getElementById("additionalHeading");
-    var advantagesHeading = document.getElementById("advantagesHeading");
-    var advantagesParagraph = document.getElementById("advantagesParagraph");
-    var btnTextAdvantages = document.getElementById("myBtnAdvantages");
     var referencesList2 = document.getElementById("referencesList2");
     var btnTextReferences2 = document.getElementById("myBtnReferences2");
 
-    if (section === "advantages") {
-      if (additionalHeading.style.display === "none") {
-        additionalHeading.style.display = "block";
-        advantagesHeading.style.display = "block";
-        advantagesParagraph.style.display = "block";
-        btnTextAdvantages.innerHTML = "Read less";
-      } else {
-        additionalHeading.style.display = "none";
-        advantagesHeading.style.display = "none";
-        advantagesParagraph.style.display = "none";
-        btnTextAdvantages.innerHTML = "Read more";
-      }
-    } else if (section === "references2") {
+    if (section === "references2") {
       if (referencesList2.style.display === "none") {
         referencesList2.style.display = "block";
         btnTextReferences2.innerHTML = "Show less";

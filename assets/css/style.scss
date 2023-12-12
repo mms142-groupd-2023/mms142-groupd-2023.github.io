@@ -10,3 +10,17 @@ div {
 
 #more {display: none;}
 
+#referencesList1 {
+  margin-bottom: 0; /* Remove bottom margin for the first list */
+}
+
+#referencesList2 {
+  margin-top: 0; /* Remove top margin for the second list */
+  display: none; /* Initially hide the second list */
+}
+
+#myBtnReferences2 {
+    margin-top: 10px; /* Add space between the button and the text */
+    float: left; /* Align the button to the right */
+}
+
