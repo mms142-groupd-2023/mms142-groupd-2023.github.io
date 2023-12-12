@@ -10,6 +10,11 @@ div {
 
 #more {display: none;}
 
+/*heading styles*/
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
 /*white content container*/
 .white-container {
   background-color: white;
@@ -22,10 +27,9 @@ div {
     padding: 20px;
 }
 
-/*h4 heading, bold, italicized, green*/
+/*h4 italicized, green*/
 .green-heading {
   color: #437C75;
-  font-weight: bold;
   font-style: italic;
 }
   
