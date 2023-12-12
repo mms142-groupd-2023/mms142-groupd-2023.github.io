@@ -10,3 +10,11 @@ div {
 
 #more {display: none;}
 
+#referencesList1 {
+  margin-bottom: 0; /* Remove bottom margin for the first list */
+}
+
+#referencesList2 {
+  margin-top: 0; /* Remove top margin for the second list */
+  display: none; /* Initially hide the second list */
+}
