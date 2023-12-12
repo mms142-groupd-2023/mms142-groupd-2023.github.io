@@ -23,3 +23,8 @@ div {
     margin-top: 10px; /* Add space between the button and the text */
     float: left; /* Align the button to the right */
 }
+
+.page-header {
+  background-image: url('/files/images/header.png');
+  background-size: cover;
+}
