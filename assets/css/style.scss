@@ -78,8 +78,12 @@ h1, h2, h3, h4, h5, h6 {
       height: auto;
       margin-left: 20px;
       max-height: 200px; /* Set the maximum height for the image */
-      align-items: center;
     }
+
+/*image properties*/
+.flex-item {
+  align-items: center;
+}
   
 #referencesList1 {
   margin-bottom: 0; /* Remove bottom margin for the first list */
