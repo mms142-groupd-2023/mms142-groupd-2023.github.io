@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*styling for media lists*/
-.description-list {
+    .description-list {
       display: flex;
       flex-wrap: wrap;
       list-style: none;
@@ -62,16 +62,15 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .description-item {
-      display: flex;
-      flex-direction: column;
-      flex: 1 0 calc(50% - 20px); /* Two columns with margin */
+      flex: 1 0 100%; /* Full width of the container, but adjust as needed */
       margin: 10px;
+      border: 1px solid #ddd; /* Optional: Add borders for clarity */
       padding: 10px;
+      box-sizing: border-box;
     }
 
     .description-item p {
       margin: 0; /* Remove default margin for paragraphs */
-      flex: 1; /* Allow the description to grow, pushing the image and caption to the bottom */
     }
 
     .description-item img {
