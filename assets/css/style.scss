@@ -24,9 +24,10 @@ div {
 .introex{
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
-.introex{
-  width: 500px;
+.introex .text{
+  width: 450px;
   background-color:gray;
 }
 
