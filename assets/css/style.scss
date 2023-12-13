@@ -38,6 +38,12 @@ div {
   margin-bottom: 20px;
 }
 
+.image-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
 #referencesList1 {
   margin-bottom: 0; /* Remove bottom margin for the first list */
 }
