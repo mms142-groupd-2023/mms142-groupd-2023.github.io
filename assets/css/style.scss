@@ -12,8 +12,8 @@ div {
 
 /*heading styles*/
 h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
-  color: black;
+  font-weight: bold !important;
+  color: black !important;
 }
 
 /*white content container*/
@@ -30,14 +30,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /*h4 italicized, green*/
 .green-heading {
-  color: #437C75;
-  font-style: italic;
+  color: #437C75 !important;
+  font-style: italic !important;
 }
 
 /*styling for sources*/
 .source {
   text-align: center;
-  color: #737373
+  color: #737373 !important;
 }
 
 /*grid containers for multiple images*/
