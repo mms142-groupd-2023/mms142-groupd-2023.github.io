@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 /*styling for media lists*/
     .description-list {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       list-style: outside;
       padding: 0;
     }
