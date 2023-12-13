@@ -19,16 +19,23 @@ div {
 }
 .introheader{
   color: black !important;
-  font-weight: bold;
+  font-weight: bold !important;
 }
 .introex{
   display: flex;
   flex-direction: row;
   align-items: center;
 }
+.introex h3{
+  color: black !important;
+  font-weight: bold !important!;
+}
 .introex .text{
   width: 450px;
   background-color:gray;
+
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 #referencesList1 {
