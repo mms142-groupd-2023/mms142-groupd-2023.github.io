@@ -13,9 +13,9 @@ div {
 .intro{
   background-color: #EFEFEF;
   padding: 50px;
-  margin: 30px;
+  margin: 30px, 0;
 
-  color: black;
+  color: black !important;
 }
 
 #referencesList1 {
