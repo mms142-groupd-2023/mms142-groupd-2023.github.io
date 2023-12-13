@@ -19,10 +19,15 @@ div {
 }
 .introheader{
   color: black !important;
+  font-weight: bold;
 }
 .introex{
   display: flex;
   flex-direction: row;
+}
+.introex{
+  width: 500px;
+  background-color:gray;
 }
 
 #referencesList1 {
