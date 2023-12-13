@@ -55,17 +55,29 @@ h1, h2, h3, h4, h5, h6 {
 
 /*styling for media lists*/
 .description-list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
-    gap: 20px; /* Gap between grid items */
-    list-style: none;
-    padding: 0;
-}
+      display: grid;
+      grid-template-columns: auto 1fr; /* First column auto-sized, second column takes remaining space */
+      list-style: none;
+      padding: 0;
+  }
 
-.description-item img {
+  .description-item {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid #ddd; /* Optional: Add borders for clarity */
+    padding: 10px;
+  }
+
+  .description-item p {
+    margin: 0; /* Remove default margin for paragraphs */
+  }
+
+  .description-item img {
     max-width: 100%; /* Make the image responsive */
     height: auto;
-}
+    margin-top: 10px; /* Add space between image and caption */
+  }
   
 #referencesList1 {
   margin-bottom: 0; /* Remove bottom margin for the first list */
