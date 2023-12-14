@@ -70,22 +70,19 @@ h1, h2, h3, h4, h5, h6 {
       display: grid;
       grid-template-columns: 2fr 1fr;
       margin-bottom: 20px;
-      
+      margin-left: 20px;
     }
-
+    .description-item img {
+      max-width: 100%; /* Make the image responsive */
+      height: auto;
+      max-height: 200px; /* Set the maximum height for the image */
+    }
     .description-content {
       flex: 1;
     }
 
     .description-content p {
       margin: 0;
-    }
-
-    .description-item img {
-      max-width: 100%; /* Make the image responsive */
-      height: auto;
-      max-height: 200px; /* Set the maximum height for the image */
-      margin-left: 20px;
     }
 
 /*image properties*/
