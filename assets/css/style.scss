@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
     .description-item {
       display: grid;
       grid-template-columns: 3fr 2fr;
-      grid-gap; 5px;
+      gap: 5px;
       margin-bottom: 20px;
     }
     .description-item img {
