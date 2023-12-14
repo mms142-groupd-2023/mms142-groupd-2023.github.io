@@ -10,6 +10,35 @@ div {
 
 #more {display: none;}
 
+/*heading styles*/
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold !important;
+  color: black !important;
+}
+
+/*white content container*/
+.white-container {
+  background-color: white;
+  padding: 20px;
+}
+
+/*gray content container*/
+.gray-container {
+  background-color: #EFEFEF;
+    padding: 20px;
+}
+
+/*h4 italicized, green*/
+.green-heading {
+  color: #437C75 !important;
+  font-style: italic !important;
+}
+
+/* Automation Example 1-4: GLYZA CATALAN*/
+.example-description {
+  text-indent: 25px;
+}
+
 .intro{
   background-color: #EFEFEF;
   padding: 50px;
@@ -53,8 +82,63 @@ div {
   object-fit: cover;
 }
 
- 
 
+/*styling for sources*/
+.source {
+  text-align: center;
+  color: #737373 !important;
+}
+
+/*grid containers for multiple images*/
+.image-container2 {
+  display: flex;
+  align-items: stretch;
+  gap: 10px;
+  justify-content: center;
+}
+
+.image-container2 img {
+  width: 100%;
+  height: auto;
+  max-height: 500px; /* Set the maximum height for the image */
+  object-fit: cover;
+}
+
+/*styling for media lists*/
+   .description-list {
+      list-style: outside;
+      padding: 0;
+    }
+
+    .description-item {
+      display: grid;
+      grid-template-columns: 3fr 2fr;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    .description-item img {
+      max-width: 100%; /* Make the image responsive */
+      height: auto;
+      max-height: 300px; /* Set the maximum height for the image */
+    }
+    .description-content {
+      flex: 1;
+      margin-left: 20px;
+    }
+
+    .description-content p {
+      margin: 0;
+    }
+
+/*image properties*/
+.flex-item {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+
+ 
 #referencesList1 {
   margin-bottom: 0; /* Remove bottom margin for the first list */
 }
