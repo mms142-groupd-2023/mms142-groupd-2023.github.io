@@ -50,6 +50,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: stretch;
   gap: 10px;
+  justify-content: center;
 }
 
 .image-container img {
@@ -57,7 +58,6 @@ h1, h2, h3, h4, h5, h6 {
   height: auto;
   max-height: 200px; /* Set the maximum height for the image */
   object-fit: cover;
-  margin: auto;
 }
 
 /*styling for media lists*/
@@ -84,6 +84,8 @@ h1, h2, h3, h4, h5, h6 {
       max-width: 100%; /* Make the image responsive */
       height: auto;
       max-height: 200px; /* Set the maximum height for the image */
+      margin-left: 20px;
+      justify-content: center;
     }
 
 /*image properties*/
