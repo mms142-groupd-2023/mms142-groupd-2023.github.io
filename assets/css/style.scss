@@ -42,7 +42,7 @@ div {
 
 .text-and-image-container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .text-container {
@@ -54,12 +54,12 @@ div {
 }
 
 .image-container {
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .image-container img {
   width: auto;
-  height: 300px;
+  height: 250px;
   object-fit: cover;
 }
 
