@@ -38,11 +38,32 @@ div {
   margin-bottom: 20px;
 }
 
+/*for images and text*/
+
+.text-and-image-container {
+  display: flex;
+  align-items: center;
+}
+
+.text-container {
+  flex: 1;
+}
+
+.text-container p {
+  text-align: left;
+}
+
+.image-container {
+  margin-left: 20px;
+}
+
 .image-container img {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 300px;
   object-fit: cover;
 }
+
+ 
 
 #referencesList1 {
   margin-bottom: 0; /* Remove bottom margin for the first list */
