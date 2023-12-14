@@ -70,7 +70,6 @@ h1, h2, h3, h4, h5, h6 {
       display: grid;
       grid-template-columns: 2fr 1fr;
       margin-bottom: 20px;
-      margin-left: 20px;
     }
     .description-item img {
       max-width: 100%; /* Make the image responsive */
@@ -79,6 +78,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     .description-content {
       flex: 1;
+      margin-left: 20px;
     }
 
     .description-content p {
@@ -88,7 +88,8 @@ h1, h2, h3, h4, h5, h6 {
 /*image properties*/
 .flex-item {
   display: block;
-  justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
 }
   
 #referencesList1 {
