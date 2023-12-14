@@ -69,12 +69,13 @@ h1, h2, h3, h4, h5, h6 {
     .description-item {
       display: grid;
       grid-template-columns: 3fr 2fr;
+      grid-gap; 5px;
       margin-bottom: 20px;
     }
     .description-item img {
       max-width: 100%; /* Make the image responsive */
       height: auto;
-      max-height: 200px; /* Set the maximum height for the image */
+      max-height: 175px; /* Set the maximum height for the image */
     }
     .description-content {
       flex: 1;
