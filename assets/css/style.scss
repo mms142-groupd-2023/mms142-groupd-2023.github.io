@@ -21,21 +21,8 @@ div {
   color: black !important;
   font-weight: bold !important;
 }
-.introex{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.introex h3{
-  color: black !important;
+.example-title{
   font-weight: bold !important;
-}
-.introex .text{
-  width: 450px;
-  background-color:gray;
-
-  margin-top: 0;
-  margin-bottom: 20px;
 }
 
 /*for images and text*/
@@ -43,6 +30,8 @@ div {
 .text-and-image-container {
   display: flex;
   align-items: flex-start;
+
+  margin-bottom: 20px;
 }
 
 .text-container {
@@ -50,7 +39,7 @@ div {
 }
 
 .text-container p {
-  text-align: left;
+  text-align: justify;
 }
 
 .image-container {
