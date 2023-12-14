@@ -90,8 +90,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /*image properties*/
 .flex-item {
-  margin: auto;
-  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
   
 #referencesList1 {
