@@ -55,6 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 .image-container img {
   width: 100%;
   height: auto;
+  max-height: 200px; /* Set the maximum height for the image */
   object-fit: cover;
 }
 
@@ -87,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*image properties*/
 .flex-item {
-  align-items: center;
+  margin: auto;
 }
   
 #referencesList1 {
