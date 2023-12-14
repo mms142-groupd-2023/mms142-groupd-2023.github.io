@@ -10,6 +10,51 @@ div {
 
 #more {display: none;}
 
+.intro{
+  background-color: #EFEFEF;
+  padding: 50px;
+  margin: 30px 0;
+
+  color: black !important;
+}
+.introheader{
+  color: black !important;
+  font-weight: bold !important;
+}
+.examples-cont{
+  margin: 20px 0;
+}
+
+/*for images and text*/
+
+.text-and-image-container {
+  display: flex;
+  align-items: flex-start;
+
+  margin-bottom: 20px;
+}
+
+.text-container {
+  flex: 1;
+}
+
+.text-container p {
+  width: 450px;
+  text-align: justify;
+}
+
+.image-container {
+  margin-left: 30px;
+}
+
+.image-container img {
+  width: auto;
+  height: 250px;
+  object-fit: cover;
+}
+
+ 
+
 #referencesList1 {
   margin-bottom: 0; /* Remove bottom margin for the first list */
 }
