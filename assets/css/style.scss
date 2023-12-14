@@ -39,6 +39,50 @@ h1, h2, h3, h4, h5, h6 {
   text-indent: 25px;
 }
 
+.intro{
+  background-color: #EFEFEF;
+  padding: 50px;
+  margin: 30px 0;
+
+  color: black !important;
+}
+.introheader{
+  color: black !important;
+  font-weight: bold !important;
+}
+.examples-cont{
+  margin: 20px 0;
+}
+
+/*for images and text*/
+
+.text-and-image-container {
+  display: flex;
+  align-items: flex-start;
+
+  margin-bottom: 20px;
+}
+
+.text-container {
+  flex: 1;
+}
+
+.text-container p {
+  width: 450px;
+  text-align: justify;
+}
+
+.image-container {
+  margin-left: 30px;
+}
+
+.image-container img {
+  width: auto;
+  height: 250px;
+  object-fit: cover;
+}
+
+
 /*styling for sources*/
 .source {
   text-align: center;
@@ -46,14 +90,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*grid containers for multiple images*/
-.image-container {
+.image-container2 {
   display: flex;
   align-items: stretch;
   gap: 10px;
   justify-content: center;
 }
 
-.image-container img {
+.image-container2 img {
   width: 100%;
   height: auto;
   max-height: 500px; /* Set the maximum height for the image */
@@ -93,6 +137,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: auto;
 }
   
+
+ 
 #referencesList1 {
   margin-bottom: 0; /* Remove bottom margin for the first list */
 }
