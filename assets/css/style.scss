@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
       display: grid;
       grid-template-columns: 2fr 1fr;
       margin-bottom: 20px;
-      justify-content: center;
+      
     }
 
     .description-content {
@@ -86,12 +86,12 @@ h1, h2, h3, h4, h5, h6 {
       height: auto;
       max-height: 200px; /* Set the maximum height for the image */
       margin-left: 20px;
-      justify-content: center;
     }
 
 /*image properties*/
 .flex-item {
   margin: auto;
+  justify-content: center;
 }
   
 #referencesList1 {
