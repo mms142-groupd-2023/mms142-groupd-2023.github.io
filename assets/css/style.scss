@@ -13,6 +13,11 @@ div {
 /*heading styles*/
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold !important;
+}
+  
+
+/*body text style*/
+p {
   color: black !important;
 }
 
@@ -25,14 +30,23 @@ h1, h2, h3, h4, h5, h6 {
 /*gray content container*/
 .gray-container {
   background-color: #EFEFEF;
-    padding: 20px;
+    padding: 50px;
+    margin: 30px 0;
+  color: black !important;
+}
+
+/*h3 green*/
+.green-heading {
+  color: #437C75 !important;
 }
 
 /*h4 italicized, green*/
-.green-heading {
+.italicized-green-heading {
   color: #437C75 !important;
   font-style: italic !important;
+  font-weight: bold !important;
 }
+
 
 /* Automation Example 1-4: GLYZA CATALAN*/
 .example-description {
